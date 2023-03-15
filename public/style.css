@@ -1,0 +1,44 @@
+@font-face { font-family: cochon; src: url('cochon.otf'); }
+body {
+  background: #F1C1D2;
+  background-image: url("bg.png");
+  background-repeat: repeat;
+}
+.select-wrapper * { transition: none !important; transform: none !important; }
+.card-panel {
+  margin: 0 !important;
+}
+.card-title {
+  text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px;
+  width: 100% !important;
+}
+.card-title .card-heading {
+  font-size: 36px !important;
+  /* font-family: cochon, sans-serif !important; */
+}
+.card-title .card-subheading {
+  font-size: 18px !important;
+}
+
+.input-field>label {
+    color: #545454 !important;
+}
+
+.page-footer {
+  background-color: #FF5E97 !important;
+}
+
+ .submitbutton {
+   width: 100% !important;
+ }
+
+
+/* condition for screen size minimum of 500px */
+@media (min-width: 768px) {
+  .card-title .card-heading {
+    font-size: 48px !important;
+  }
+  .card-title .card-subheading {
+    font-size: 24px !important;
+  }
+}
